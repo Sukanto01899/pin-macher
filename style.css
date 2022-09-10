@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(42, 2, 151);
+}
+.container{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pin-genarator{
+    background-color: rgb(20, 3, 65);
+    padding: 30px;
+    flex-basis: 48%;
+    height: 80vh;
+    text-align: center;
+}
+.pin-genarator button{
+    width: 250px;
+    height: 250px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-top: 60px;
+    background-color: rgb(42, 2, 151);
+    color: white;
+    border: 5px solid white;
+}
+.pin-genarator button:active{
+    background-color: rgb(29, 3, 100);
+}
+.pin-genarator input{
+    background-color: beige;
+}
+.pin-matcher{
+    flex-basis: 48%;
+    background-color: rgb(20, 3, 65);
+    padding: 30px;
+    height: 80vh;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+input{
+    padding: 20px;
+    font-size: 25px;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 40px;
+}
+
+.keys button, #submit{
+    padding: 20px 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(42, 2, 151);
+    color: white;
+    border: none;
+}
+#submit{
+    margin-top: 20px;
+    width: 100%;
+    padding: 8px;
+}
+.keys button:active, #submit:active{
+    background-color: rgb(29, 3, 100);
+}

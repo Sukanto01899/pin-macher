@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pin Matcher</title>
+</head>
+<body>
+    <section class="container">
+        <!-- Pin Genrator -->
+        <div class="pin-genarator">
+            <h1>Generate Pin</h1>
+            <input type="text" name="" id="genarator-screen" readonly>
+            <button id="genarate-btn">Genarate Pin</button>
+        </div>
+
+        <!-- Pin Matcher -->
+        <div class="pin-matcher">
+            <h1>Please Enter Pin</h1>
+            <input type="text" name="" id="matcher-screen">
+            <div id="keys" class="keys">
+                <button data-action="num">1</button>
+                <button data-action="num">2</button>
+                <button data-action="num">3</button>
+                <button data-action="num">4</button>
+                <button data-action="num">5</button>
+                <button data-action="num">6</button>
+                <button data-action="num">7</button>
+                <button data-action="num">8</button>
+                <button data-action="num">9</button>
+                <button data-action="remove">></button>
+                <button data-action="num">0</button>
+                <button data-action="clear">c</button>
+            </div>
+
+            <button id="submit">Submit</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
